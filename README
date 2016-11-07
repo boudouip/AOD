@@ -1,0 +1,9 @@
+Ce code a été réalisé dans le cadre d'un projet par équipe 2, le code réalisé se trouve dans le fichier computePatchOpt.c où les auteurs de chaque partie du code sont identifiés dans les commentaires.
+
+Le but de ce projet était de réaliser un programme le plus rapide possible utilisant l'algorithme de Bellman pour calculer un patch de coût d'application minimal pour passer d'un fichier à un autre (similaire mais pas identique à la commande diff sous Unix). La spécification détaillé se trouve dans le fichier Enonce_AOD.pdf.
+
+Le problème se réduit donc à un calcul de plus court chemin sur un graphe orienté pondéré.
+
+Sous Unix, le programme peut s'éxécuter sur le benchmark de test avec les commandes :
+make
+./test.sh benchmark
