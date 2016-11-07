@@ -5,5 +5,6 @@ Le but de ce projet était de réaliser un programme le plus rapide possible uti
 Le problème se réduit donc à un calcul de plus court chemin sur un graphe orienté pondéré.
 
 Sous Unix, le programme peut s'éxécuter sur le benchmark de test avec les commandes :
+mkdir bin
 make
 ./test.sh benchmark
